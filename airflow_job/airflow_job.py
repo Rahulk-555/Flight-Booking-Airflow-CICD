@@ -70,8 +70,8 @@ with DAG(
         "environment_config": {
             "execution_config": {
                 "service_account": "280665418210-compute@developer.gserviceaccount.com",
-                "network_uri": "bustling-shape-455618-d4/global/networks/default",
-                "subnetwork_uri": "bustling-shape-455618-d4/regions/us-central1/subnetworks/default",
+                "network_uri": "projects/bustling-shape-455618-d4/global/networks/default",
+                "subnetwork_uri": "projects/bustling-shape-455618-d4/regions/us-central1/subnetworks/default",
             }
         },
     }
