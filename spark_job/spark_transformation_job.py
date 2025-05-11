@@ -43,7 +43,7 @@ def main(env, bq_project, bq_dataset, transformed_table, route_insights_table, o
             "booking_success_rate", expr("booking_complete / num_passengers")
         )
 
-        # Aggregations for insights
+        # Aggregations for insights 
         route_insights = transformed_data.groupBy("route").agg(
             count("*").alias("total_bookings"),
             avg("flight_duration").alias("avg_flight_duration"),
